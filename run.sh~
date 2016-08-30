@@ -1,0 +1,4 @@
+#! /bin/bash
+#
+# run.sh
+scrapy crawl dantri_crawl -o items.json -s JOBDIR=crawls/dantri_crawl -s LOG_FILE=scrapy.log
